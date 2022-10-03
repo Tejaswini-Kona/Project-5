@@ -1,0 +1,155 @@
+* {
+    margin: 5px;
+    padding: 5px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-items {
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+
+.nav-item {
+    margin-inline: 15px;
+}
+
+.nav-items+img {
+    position: relative;
+    left: 2cm;
+}
+
+.active-item {
+    color: coral;
+    font-weight: bold;
+}
+
+.left-section {
+    text-align: left;
+    position: relative;
+    bottom: 20px;
+}
+
+.intro-section {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    font-size: xx-large;
+}
+
+.left-section h1 {
+    font-family: cursive;
+    font-size: 70px;
+}
+
+.sub-headlines {
+    font-size: larger;
+    position: relative;
+    left: 80px;
+}
+
+.sub-headline>img {
+    background-color: coral;
+    position: relative;
+    top: 15px;
+}
+
+.action-btn {
+    color: white;
+    background-color: coral;
+    border: 0;
+    border-radius: 25px;
+    padding: 15px 25px;
+}
+
+.text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: lightslategray;
+}
+
+.right-section {
+    text-align: end;
+    position: relative;
+    bottom: 25cm;
+    right: 0cm;
+}
+
+.headphone-div>img {
+    position: relative;
+    right: 320px;
+    top: 16cm;
+    height: 4cm;
+    width: 4cm;
+}
+
+.discount-content+img {
+    height: 11cm;
+    width: 11cm;
+    position: relative;
+    top: 1cm;
+    bottom: 1cm;
+    right: 0;
+    z-index: -2;
+}
+
+.discount-content {
+    color: white;
+    font-family: cursive;
+    position: relative;
+    right: 9.5cm;
+    top: 12cm;
+    z-index: 2;
+}
+
+.discount-content h1 {
+    font-size: 40px;
+    position: relative;
+    bottom: 15px;
+    left: 5px;
+}
+
+.discount-content h4 {
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+
+.dots {
+    display: flex;
+    width: 50px;
+    position: absolute;
+    right: 230px;
+    top: 21cm;
+}
+
+.yellow-dot {
+    background-color: yellow;
+    border: 2px solid yellow;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+.tomato-dot {
+    background-color: tomato;
+    border: 2px solid tomato;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+.black-dot {
+    background-color: black;
+    border: 2px solid black;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+.dots+.action-btn {
+    position: relative;
+    top: 3cm;
+    right: 150px;
+}
